@@ -22,7 +22,7 @@
         </ul>
 
         <h2>Projects</h2>
-        <table>
+        <table border="2">
             <tr>
                 <th>Project Name</th>
                 <th>Description</th>
@@ -39,8 +39,23 @@
                 <td>C language and CodeBlocks</td>
             </tr>
         </table>
-
-        <h2>Contact Details</h2>
-        <p>Amaya Dahanayake <br>amayadahanayake14@gmail.com <br></p>
+        <br>
+    
+        <hr>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name"> Name </label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+            </section>
     </body>
 </html>
